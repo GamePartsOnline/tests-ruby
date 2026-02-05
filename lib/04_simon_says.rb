@@ -1,23 +1,23 @@
-def echo(word)
-  # 
+def hello
+  "Hello!"
 end
 
 def shout(word)
-  # À compléter
+  word.upcase
 end
 
 def repeat(word, times = 2)
-  # À compléter
+  word * times
 end
 
 def start_of_word(word, length)
-  # À compléter
+  word[0, length]
 end
 
 def first_word(sentence)
-  # À compléter
+  sentence.split.first
 end
 
 def titleize(sentence)
-  # À compléter
+  sentence.split.map(&:capitalize).join(" ")
 end
